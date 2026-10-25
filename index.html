@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omkar's Quest</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Pixelify+Sans:wght@400;600&display=swap">
+<style>
+  :root{ --ink:#0d0a1c; --panel:#18143a; --edge:#4b3f8f; --line:#f4e9c8; --gold:#ffc83d; --pink:#ff6b9a; --mint:#5ef0b5; --txt:#f4f1ff; --mute:#b9b0dd; color-scheme:dark }
+  html,body{margin:0;min-height:100%}
+  body{background:var(--ink);color:var(--txt);font-family:"Pixelify Sans","Trebuchet MS",sans-serif;font-size:17px;
+    display:flex;align-items:center;justify-content:center;padding:32px 16px;box-sizing:border-box}
+  main{max-width:760px;width:100%}
+  h1{font-family:"Press Start 2P",monospace;font-weight:400;color:var(--gold);font-size:clamp(20px,5vw,34px);line-height:1.3;margin:0 0 8px;text-shadow:3px 3px 0 #d0542f,6px 6px 0 #000}
+  p{color:var(--mute);line-height:1.45;margin:0 0 24px}
+  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  a.game{display:block;text-decoration:none;color:inherit;background:var(--panel);border:3px solid var(--line);padding:18px;box-shadow:6px 6px 0 #000}
+  a.game:hover,a.game:focus-visible{border-color:var(--gold);outline:none;transform:translate(-2px,-2px);box-shadow:8px 8px 0 #000}
+  .tag{font-family:"Press Start 2P",monospace;font-size:8px;color:var(--pink);letter-spacing:.12em}
+  h2{font-family:"Press Start 2P",monospace;font-weight:400;font-size:13px;color:var(--line);margin:10px 0;line-height:1.5}
+  a.game p{margin:0;font-size:15px}
+  .go{display:inline-block;margin-top:14px;font-family:"Press Start 2P",monospace;font-size:9px;color:var(--ink);background:var(--mint);padding:8px 10px}
+  footer{margin-top:28px;font-size:14px;color:var(--mute)}
+  footer a{color:var(--line)}
+</style>
+</head>
+<body>
+<main>
+  <h1>OMKAR'S QUEST</h1>
+  <p>My product design portfolio, told as two browser games. Same story, two ways to play.</p>
+  <div class="games">
+    <a class="game" href="hill-climb/">
+      <div class="tag">V2 · HILL CLIMB</div>
+      <h2>Drive the career road</h2>
+      <p>Physics driving in a Mumbai auto-rickshaw. Grab floating cards to unlock my story, collect fuel, land flips.</p>
+      <span class="go">▶ PLAY</span>
+    </a>
+    <a class="game" href="8bit-platformer/">
+      <div class="tag">V1 · 8-BIT PLATFORMER</div>
+      <h2>Walk through 9 stages</h2>
+      <p>A classic side-scroller. Read signs, bonk ? blocks for skills, climb to the promotion, and reach the flag.</p>
+      <span class="go">▶ PLAY</span>
+    </a>
+  </div>
+  <footer>Omkar Khandalkar · Senior Product Designer · <a href="https://omkarkhandalkar.online/">omkarkhandalkar.online</a></footer>
+</main>
+</body>
+</html>
